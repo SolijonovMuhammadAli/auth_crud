@@ -5,8 +5,8 @@ import { routerAdmin } from "./routerAdmin";
 import { routerMain } from "./routerMain";
 
 const routerLayout = [
-  { component: <MainLayout />, path: "/", routes: routerMain },
-  { component: <AdminLayout />, path: "/admin", routes: routerAdmin },
+  { component: <MainLayout />, path: "/", routes: routerMain, isPrivate: false },
+  { component: <AdminLayout />, path: "/admin", routes: routerAdmin, isPrivate: true },
 ].map((i, key) => ({ ...i, key }));
 
 export { routerLayout };

@@ -1,26 +1,9 @@
-import { useState } from "react";
+import { login } from "./useSlice";
 
-export const useLogin = () => {
-  const [error, setError] = useState(false);
-  const [isPending, setIsPending] = useState(false);
-
-  const login = (data) => {
-    setError(null);
-    setIsPending(true);
-
-    try {
-      setIsPending(false);
-      const { name } = data;
-      if (name === "Oybek") {
-        console.log("ok");
-      } else {
-        console.log("error");
-      }
-    } catch (error) {
-      setError("Error!");
-      setIsPending(false);
-    }
-  };
-
-  return { login, error, isPending };
+export const loginUser = (data) => (dispatch) => {
+  try {
+    dispatch(login(data));
+  } catch (error) {
+    console.error("Login failed:", error);
+  }
 };

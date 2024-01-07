@@ -1,14 +1,9 @@
-import { signOut } from "firebase/auth";
-import { auth } from "../firebase/config";
+import { logout } from "./useSlice";
 
-export const useLogout = () => {
-  const logout = async () => {
-    try {
-      await signOut(auth);
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
-
-  return { logout };
+export const logoutUser = (dispatch) => {
+  try {
+    dispatch(logout());
+  } catch (error) {
+    console.error("Login failed:", error);
+  }
 };
