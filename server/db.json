@@ -1,0 +1,339 @@
+{
+  "properties": [
+    {
+      "id": "64b717ceb0e5c30039b33611",
+      "status": true,
+      "name": "F.I.SH",
+      "type": {
+        "value": "string",
+        "label": "Text"
+      },
+      "description": "Bu maydon test uchun ",
+      "label": "Sarlavha",
+      "placeholder": "fish",
+      "is_required": true,
+      "block": true,
+      "col_width": 4,
+      "property_options": [
+        {
+          "label": "Bahor",
+          "value": "1"
+        },
+        {
+          "label": "Yoz",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "64b8bf0a5b64ca969187aaa7",
+      "status": true,
+      "name": "Fasl",
+      "type": {
+        "value": "radio",
+        "label": "Ro'yxattan biri"
+      },
+      "description": "Fasl",
+      "label": "Fasl",
+      "placeholder": "Fasl",
+      "is_required": true,
+      "block": true,
+      "col_width": 4,
+      "property_options": [
+        {
+          "label": "Bahor",
+          "value": "1",
+          "select": [
+            {
+              "value": {
+                "id": "64b8bf0a5b64ca969187aaa7",
+                "status": true,
+                "name": "Fasl",
+                "type": {
+                  "value": "radio",
+                  "label": "Ro'yxattan biri"
+                },
+                "description": "Fasl",
+                "label": "Fasl",
+                "placeholder": "Fasl",
+                "is_required": true,
+                "block": true,
+                "col_width": 6,
+                "property_options": [
+                  {
+                    "label": "Bahor",
+                    "value": "1",
+                    "select": []
+                  },
+                  {
+                    "label": "Yoz",
+                    "value": "2",
+                    "select": []
+                  },
+                  {
+                    "label": "Kuz",
+                    "value": "3",
+                    "select": []
+                  }
+                ]
+              },
+              "label": "Fasl"
+            },
+            {
+              "value": {
+                "id": "64b8cb0e5247d29843236174",
+                "status": false,
+                "name": "Mashina",
+                "type": {
+                  "value": "radio",
+                  "label": "Ro'yxattan biri"
+                },
+                "description": "Mashina",
+                "label": "Mashina",
+                "placeholder": "Mashina",
+                "is_required": true,
+                "block": true,
+                "col_width": 4,
+                "property_options": []
+              },
+              "label": "Mashina"
+            }
+          ]
+        },
+        {
+          "label": "Yoz",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "64b8cb0e5247d29843236174",
+      "status": true,
+      "name": "Mashina",
+      "type": {
+        "value": "checkbox",
+        "label": "Ro'yxattan bir nechtasi"
+      },
+      "description": "Mashina",
+      "label": "Mashina",
+      "placeholder": "Mashina",
+      "is_required": true,
+      "block": true,
+      "col_width": 4,
+      "property_options": [
+        {
+          "label": "BMW",
+          "value": "1",
+          "select": []
+        },
+        {
+          "label": "Mers",
+          "value": "2",
+          "select": []
+        }
+      ]
+    }
+  ],
+  "properties-group": [
+    {
+      "id": "64b7b4cf06b7bcf8295c19e9",
+      "status": true,
+      "name": "Maydon nomi",
+      "description": "Maydon guruhi haqida ma'lumot",
+      "feilds": [
+        {
+          "label": "Fasl",
+          "value": {
+            "id": "64b8bf0a5b64ca969187aaa7",
+            "status": true,
+            "name": "Fasl",
+            "type": {
+              "value": "radio",
+              "label": "Ro'yxattan biri"
+            },
+            "description": "Fasl",
+            "label": "Fasl",
+            "placeholder": "Fasl",
+            "is_required": true,
+            "block": true,
+            "col_width": 4,
+            "property_options": [
+              {
+                "label": "Bahor",
+                "value": "1",
+                "select": [
+                  {
+                    "value": {
+                      "id": "64b8bf0a5b64ca969187aaa7",
+                      "status": true,
+                      "name": "Fasl",
+                      "type": {
+                        "value": "radio",
+                        "label": "Ro'yxattan biri"
+                      },
+                      "description": "Fasl",
+                      "label": "Fasl",
+                      "placeholder": "Fasl",
+                      "is_required": true,
+                      "block": true,
+                      "col_width": 6,
+                      "property_options": [
+                        {
+                          "label": "Bahor",
+                          "value": "1",
+                          "select": []
+                        },
+                        {
+                          "label": "Yoz",
+                          "value": "2",
+                          "select": []
+                        },
+                        {
+                          "label": "Kuz",
+                          "value": "3",
+                          "select": []
+                        }
+                      ]
+                    },
+                    "label": "Fasl"
+                  },
+                  {
+                    "value": {
+                      "id": "64b8cb0e5247d29843236174",
+                      "status": false,
+                      "name": "Mashina",
+                      "type": {
+                        "value": "radio",
+                        "label": "Ro'yxattan biri"
+                      },
+                      "description": "Mashina",
+                      "label": "Mashina",
+                      "placeholder": "Mashina",
+                      "is_required": true,
+                      "block": true,
+                      "col_width": 4,
+                      "property_options": []
+                    },
+                    "label": "Mashina"
+                  }
+                ]
+              },
+              {
+                "label": "Yoz",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Mashina",
+          "value": {
+            "id": "64b8cb0e5247d29843236174",
+            "status": true,
+            "name": "Mashina",
+            "type": {
+              "value": "checkbox",
+              "label": "Ro'yxattan bir nechtasi"
+            },
+            "description": "Mashina",
+            "label": "Mashina",
+            "placeholder": "Mashina",
+            "is_required": true,
+            "block": true,
+            "col_width": 4,
+            "property_options": [
+              {
+                "label": "BMW",
+                "value": "1",
+                "select": []
+              },
+              {
+                "label": "Mers",
+                "value": "2",
+                "select": []
+              }
+            ]
+          }
+        },
+        {
+          "label": "F.I.SH",
+          "value": {
+            "id": "64b717ceb0e5c30039b33611",
+            "status": true,
+            "name": "F.I.SH",
+            "type": {
+              "value": "string",
+              "label": "Text"
+            },
+            "description": "Bu maydon test uchun ",
+            "label": "Sarlavha",
+            "placeholder": "fish",
+            "is_required": true,
+            "block": true,
+            "col_width": 4,
+            "property_options": [
+              {
+                "label": "Bahor",
+                "value": "1"
+              },
+              {
+                "label": "Yoz",
+                "value": "2"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "name": "Toshkent",
+      "value": "1",
+      "type": "1",
+      "parent": "p"
+    },
+    {
+      "name": "Namangan",
+      "value": "2",
+      "type": "1",
+      "parent": "p"
+    },
+    {
+      "name": "Yunusobod",
+      "value": "2",
+      "type": "2",
+      "parent": "1"
+    },
+    {
+      "name": "Chorsu",
+      "value": "3",
+      "type": "2",
+      "parent": "1"
+    },
+    {
+      "name": "Yakkasaroy",
+      "value": "4",
+      "type": "2",
+      "parent": "1"
+    },
+    {
+      "name": "Chortoq",
+      "value": "5",
+      "type": "2",
+      "parent": "2"
+    },
+    {
+      "name": "Chust",
+      "value": "6",
+      "type": "2",
+      "parent": "2"
+    },
+    {
+      "name": "Namangan",
+      "value": "7",
+      "type": "2",
+      "parent": "2"
+    }
+  ]
+}
