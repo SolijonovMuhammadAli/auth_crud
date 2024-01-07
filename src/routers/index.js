@@ -3,9 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import { routerLayout } from "./routers";
 import ErrorPage from "pages/ErrorPage";
 import { useSelector } from "react-redux";
+import { selectAuth } from "features/authentication/hooks/useSlice";
 
 function Router() {
-  const isAuth = useSelector((state) => state.user.isAuth);
+  const isAuth = useSelector(selectAuth);
 
   return (
     <Routes>
